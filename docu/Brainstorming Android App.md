@@ -12,3 +12,4 @@ Open Run Tracker
 ## Development
 - language : kotlin (easy android development)
 - versioning & collab: git
+- TESTTT
