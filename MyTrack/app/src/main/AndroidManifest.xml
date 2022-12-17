@@ -14,7 +14,18 @@
         android:theme="@style/Theme.MyTrack"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream:MyTrack/app/src/main/AndroidManifest.xml
             android:name=".MainActivity2"
+=======
+            android:name=".activities.RunActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activities.GraphActivity"
+>>>>>>> Stashed changes:gps_coordinates/app/src/main/AndroidManifest.xml
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
