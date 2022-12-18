@@ -16,101 +16,148 @@
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 12-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:6:5-81
 12-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:6:22-78
-13
-14    <application
-14-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:8:5-45:19
-15        android:allowBackup="true"
-15-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.8.0] C:\Users\Quevy\.gradle\caches\transforms-3\205feb206244c8c1b4b56fcdc8d69988\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:10:9-65
-18        android:debuggable="true"
-19        android:fullBackupContent="@xml/backup_rules"
-19-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:11:9-54
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:12:9-43
-21        android:label="@string/app_name"
-21-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:13:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:14:9-54
-23        android:supportsRtl="true"
-23-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:15:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.Gps_coordinates" >
-25-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:16:9-53
-26        <activity
-26-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:18:9-24:20
-27            android:name="com.example.gps_coordinates.activities.RunActivity"
-27-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:19:13-51
-28            android:exported="false" >
-28-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:20:13-37
-29            <meta-data
-29-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:21:13-23:36
-30                android:name="android.app.lib_name"
-30-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:22:17-52
-31                android:value="" />
-31-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:23:17-33
-32        </activity>
-33        <activity
-33-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:25:9-31:20
-34            android:name="com.example.gps_coordinates.activities.GraphActivity"
-34-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:26:13-53
-35            android:exported="false" >
-35-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:27:13-37
-36            <meta-data
-36-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:21:13-23:36
-37                android:name="android.app.lib_name"
-37-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:22:17-52
-38                android:value="" />
-38-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:23:17-33
-39        </activity>
-40        <activity
-40-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:32:9-44:20
-41            android:name="com.example.gps_coordinates.MainActivity"
-41-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:33:13-41
-42            android:exported="true" >
-42-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:34:13-36
-43            <intent-filter>
-43-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:35:13-39:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:36:17-69
-44-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:36:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:38:17-77
-46-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:38:27-74
-47            </intent-filter>
-48
-49            <meta-data
-49-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:21:13-23:36
-50                android:name="android.app.lib_name"
-50-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:22:17-52
-51                android:value="" />
-51-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:23:17-33
-52        </activity>
-53
-54        <provider
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-55            android:name="androidx.startup.InitializationProvider"
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-56            android:authorities="com.example.gps_coordinates.androidx-startup"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-57            android:exported="false" >
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-58            <meta-data
-58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-60                android:value="androidx.startup" />
-60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-61            <meta-data
-61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-63                android:value="androidx.startup" />
-63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-64        </provider>
-65    </application>
-66
-67</manifest>
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <supports-screens
+17-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:11:5-14:40
+18        android:anyDensity="true"
+18-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:12:9-34
+19        android:largeScreens="true"
+19-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:13:9-36
+20        android:normalScreens="true" />
+20-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:14:9-37
+21
+22    <uses-feature
+22-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:16:5-18:36
+23        android:name="android.hardware.location.network"
+23-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:17:9-57
+24        android:required="false" />
+24-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:18:9-33
+25    <uses-feature
+25-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:19:5-21:36
+26        android:name="android.hardware.location.gps"
+26-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:20:9-53
+27        android:required="false" />
+27-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:21:9-33
+28    <uses-feature
+28-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:22:5-24:36
+29        android:name="android.hardware.telephony"
+29-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:23:9-50
+30        android:required="false" />
+30-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:24:9-33
+31    <uses-feature
+31-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:25:5-27:36
+32        android:name="android.hardware.wifi"
+32-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:26:9-45
+33        android:required="false" />
+33-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:27:9-33
+34
+35    <application
+35-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:11:5-51:19
+36        android:allowBackup="true"
+36-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:12:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.8.0] C:\Users\Quevy\.gradle\caches\transforms-3\205feb206244c8c1b4b56fcdc8d69988\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+38        android:dataExtractionRules="@xml/data_extraction_rules"
+38-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:13:9-65
+39        android:debuggable="true"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:14:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:15:9-43
+42        android:label="@string/app_name"
+42-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:16:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:17:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:18:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.Gps_coordinates" >
+46-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:19:9-53
+47        <activity
+47-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:21:9-30:20
+48            android:name="com.example.gps_coordinates.activities.RunActivity"
+48-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:22:13-51
+49            android:exported="false"
+49-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:23:13-37
+50            android:screenOrientation="portrait"
+50-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:24:13-49
+51            android:theme="@style/Theme.Design.NoActionBar" >
+51-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:25:13-60
+52            <meta-data
+52-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:27:13-29:36
+53                android:name="android.app.lib_name"
+53-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:28:17-52
+54                android:value="" />
+54-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:29:17-33
+55        </activity>
+56        <activity
+56-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:31:9-37:20
+57            android:name="com.example.gps_coordinates.activities.GraphActivity"
+57-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:32:13-53
+58            android:exported="false" >
+58-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:33:13-37
+59            <meta-data
+59-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:27:13-29:36
+60                android:name="android.app.lib_name"
+60-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:28:17-52
+61                android:value="" />
+61-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:29:17-33
+62        </activity>
+63        <activity
+63-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:38:9-50:20
+64            android:name="com.example.gps_coordinates.MainActivity"
+64-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:39:13-41
+65            android:exported="true" >
+65-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:40:13-36
+66            <intent-filter>
+66-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:41:13-45:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:42:17-69
+67-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:42:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:44:17-77
+69-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:44:27-74
+70            </intent-filter>
+71
+72            <meta-data
+72-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:27:13-29:36
+73                android:name="android.app.lib_name"
+73-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:28:17-52
+74                android:value="" />
+74-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:29:17-33
+75        </activity>
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+79            android:authorities="com.example.gps_coordinates.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+87        </provider>
+88    </application>
+89
+90</manifest>

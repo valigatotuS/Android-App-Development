@@ -12,11 +12,13 @@ drawable ic_launcher_foreground
 id btn_addgps
 id btn_run
 id btn_start
+id btn_stop
 id distanceView
 id getLocation
 id goToGraph
 id idGraphView
 id idTVHead
+id map
 id speedView
 id text
 id textView

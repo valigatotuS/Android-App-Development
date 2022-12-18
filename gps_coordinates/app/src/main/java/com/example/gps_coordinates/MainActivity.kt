@@ -19,10 +19,13 @@ import com.example.gps_coordinates.activities.GraphActivity
 import com.example.gps_coordinates.activities.RunActivity
 import com.example.gps_coordinates.database.DatabaseHandler
 import com.example.gps_coordinates.models.ActivityModel
+import java.util.concurrent.Executors
+import java.util.concurrent.TimeUnit
 
 private const val TAG = "Tar2"
 var locations_longtidude = mutableListOf<Double>(0.0,0.0)
 var locations_latitude = mutableListOf<Double>(0.0,0.0)
+public var userLocations = ArrayList<Pair<Double, Double>>()
 var time = System.currentTimeMillis();
 var results = mutableListOf<Double>(0.0)
 
@@ -38,11 +41,11 @@ class MainActivity : AppCompatActivity(), LocationListener {
     private val locationPermissionCode = 2
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         title = "Location App"
-
         // constants to store UI elements
         val graphButton: Button = findViewById(R.id.goToGraph)
         val runButton: Button = findViewById(R.id.btn_run)
@@ -64,6 +67,8 @@ class MainActivity : AppCompatActivity(), LocationListener {
             val intent = Intent(this, RunActivity::class.java)
             startActivity(intent)
         }
+
+
     }
 
     // Function to request location updates
@@ -113,6 +118,8 @@ class MainActivity : AppCompatActivity(), LocationListener {
         locations_latitude[1] = location.latitude
         locations_longtidude[1] = location.longitude
 
+        userLocations.add(Pair(location.latitude, location.longitude))
+
         var distance = calcDist(locations_latitude[1], locations_longtidude[1], locations_latitude[0],  locations_longtidude[0] )
         //var distance = calcDist(100.0, 50.0, 99.0,  50.0 )
         tvDistance = findViewById(R.id.distanceView)
@@ -142,4 +149,6 @@ class MainActivity : AppCompatActivity(), LocationListener {
             }
         }
     }
+
+
 }
