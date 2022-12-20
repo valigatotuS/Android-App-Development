@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.View
 import android.view.Window
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
@@ -74,6 +75,8 @@ class RunActivity : AppCompatActivity() {
 
             // Start running activity
             startNewRunningActivity()
+            updateCurrentRunningPath()
+            liveMapView()
         }
 
         stopButton.setOnClickListener{
