@@ -24,6 +24,7 @@ import androidx.preference.PreferenceManager
 import com.example.gps_coordinates.activities.GraphActivity
 import com.example.gps_coordinates.databinding.ActivityMainBinding
 import com.example.gps_coordinates.fragments.HistoryFragment
+import com.example.gps_coordinates.fragments.HomeFragment
 import com.example.gps_coordinates.fragments.MapFragment
 import com.example.gps_coordinates.fragments.ProfileFragment
 import com.google.android.material.bottomappbar.BottomAppBar
@@ -88,7 +89,7 @@ class HomeActivity : AppCompatActivity(), LocationListener {
         bottomNav.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.home -> {
-                    replaceFragment(Home())
+                    replaceFragment(HomeFragment())
                     true
                 }
                 R.id.map -> {

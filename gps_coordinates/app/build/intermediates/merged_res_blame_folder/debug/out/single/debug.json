@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\menu\\bottom_navigation.xml"
     },
     {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_background_line_2.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\background_line_2.xml"
+    },
+    {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -12,28 +16,36 @@
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\layout\\fragment_map.xml"
     },
     {
-        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-xxhdpi_top_speed_svgrepo_com.png.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-xxhdpi\\top_speed_svgrepo_com.png"
     },
     {
-        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\ic_launcher_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_runman.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\runman.xml"
     },
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\layout_activity_graph.xml.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\layout\\activity_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\layout\\fragment_home.xml"
     },
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -52,6 +64,10 @@
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\layout\\fragment_history.xml"
     },
     {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-mdpi_top_speed_svgrepo_com.png.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-mdpi\\top_speed_svgrepo_com.png"
+    },
+    {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_transparant_background.xml.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\transparant_background.xml"
     },
@@ -62,6 +78,10 @@
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_ic_baseline_map_24.xml.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\ic_baseline_map_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-anydpi-v24_top_speed_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-anydpi-v24\\top_speed_svgrepo_com.xml"
     },
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\layout_activity_run.xml.flat",
@@ -88,24 +108,48 @@
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-xxxhdpi_top_speed_svgrepo_com.png.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-xxxhdpi\\top_speed_svgrepo_com.png"
+    },
+    {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gps_coordinates.app-merged_res-49:/layout_fragment_map.xml.flat",
-        "source": "com.example.gps_coordinates.app-main-51:/layout/fragment_map.xml"
+        "merged": "com.example.gps_coordinates.app-merged_res-49:/layout_fragment_profile.xml.flat",
+        "source": "com.example.gps_coordinates.app-main-51:/layout/fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable_graphic_progression_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\drawable\\graphic_progression_svgrepo_com.xml"
+    },
+    {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\layout_fragment_home_.xml.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\layout\\fragment_home_.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-xhdpi_top_speed_svgrepo_com.png.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-xhdpi\\top_speed_svgrepo_com.png"
+    },
+    {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-main-51:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-ldpi_top_speed_svgrepo_com.png.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-ldpi\\top_speed_svgrepo_com.png"
+    },
+    {
+        "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\drawable-hdpi_top_speed_svgrepo_com.png.flat",
+        "source": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-pngs-44:\\drawable-hdpi\\top_speed_svgrepo_com.png"
     },
     {
         "merged": "C:\\Users\\Quevy\\.gradle\\daemon\\7.4\\com.example.gps_coordinates.app-merged_res-49:\\layout_activity_home.xml.flat",

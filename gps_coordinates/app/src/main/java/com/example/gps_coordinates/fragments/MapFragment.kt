@@ -161,8 +161,8 @@ class MapFragment : Fragment() {
             userCurrentDistance += userCurrentPace * 5
         }
         // debug
-        distancelblTextV.text = String.format("%.3f", distance) + " km"
-        pacelblTextV.text = convertSpeedToPace(userCurrentPace)
+//        distancelblTextV.text = String.format("%.3f", distance) + " km"
+//        pacelblTextV.text = convertSpeedToPace(userCurrentPace)
     }
 
     fun calculateDistance(coord1: GeoPoint, coord2: GeoPoint): Double {
@@ -181,7 +181,7 @@ class MapFragment : Fragment() {
     }
 
     fun convertSpeedToPace(speed: Double): String {
-        if (speed < 0.01){ return "0'0'"}
+        if (speed < 0.01){ return "0'0''"}
         val pace = 1000.0 / speed // convert m/s to s/m
         val minutes = pace / 60.0 // convert s/m to min/km
         val seconds = (pace % 60) // get remainder in seconds
