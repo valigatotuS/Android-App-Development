@@ -6,185 +6,185 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml
+8-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml
+9-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:5:5-79
-11-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:5:22-76
+11-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:5:5-79
+11-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:5:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:6:22-78
+12-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:7:5-67
-13-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:7:22-64
+13-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:7:5-67
+13-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:7:22-64
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:8:5-79
-14-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:8:22-76
+14-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:8:5-79
+14-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:8:22-76
 15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-15-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:9:5-81
-15-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:9:22-78
+15-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:9:5-81
+15-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:9:22-78
 16
 17    <supports-screens
-17-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:11:5-14:40
+17-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:11:5-14:40
 18        android:anyDensity="true"
-18-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:12:9-34
+18-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:12:9-34
 19        android:largeScreens="true"
-19-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:13:9-36
+19-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:13:9-36
 20        android:normalScreens="true" />
-20-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:14:9-37
+20-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:14:9-37
 21
 22    <uses-feature
-22-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:16:5-18:36
+22-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:16:5-18:36
 23        android:name="android.hardware.location.network"
-23-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:17:9-57
+23-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:17:9-57
 24        android:required="false" />
-24-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:18:9-33
+24-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:18:9-33
 25    <uses-feature
-25-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:19:5-21:36
+25-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:19:5-21:36
 26        android:name="android.hardware.location.gps"
-26-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:20:9-53
+26-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:20:9-53
 27        android:required="false" />
-27-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:21:9-33
+27-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:21:9-33
 28    <uses-feature
-28-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:22:5-24:36
+28-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:22:5-24:36
 29        android:name="android.hardware.telephony"
-29-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:23:9-50
+29-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:23:9-50
 30        android:required="false" />
-30-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:24:9-33
+30-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:24:9-33
 31    <uses-feature
-31-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:25:5-27:36
+31-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:25:5-27:36
 32        android:name="android.hardware.wifi"
-32-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:26:9-45
+32-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:26:9-45
 33        android:required="false" />
-33-->[org.osmdroid:osmdroid-android:6.0.2] C:\Users\Quevy\.gradle\caches\transforms-3\cb2c987eea2518d3214308c15e2ee70a\transformed\jetified-osmdroid-android-6.0.2\AndroidManifest.xml:27:9-33
+33-->[org.osmdroid:osmdroid-android:6.0.2] /home/valigatotus/.gradle/caches/transforms-3/cb2c987eea2518d3214308c15e2ee70a/transformed/jetified-osmdroid-android-6.0.2/AndroidManifest.xml:27:9-33
 34
 35    <application
-35-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:11:5-58:19
+35-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:11:5-58:19
 36        android:allowBackup="true"
-36-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:12:9-35
+36-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:12:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.8.0] C:\Users\Quevy\.gradle\caches\transforms-3\205feb206244c8c1b4b56fcdc8d69988\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+37-->[androidx.core:core:1.8.0] /home/valigatotus/.gradle/caches/transforms-3/205feb206244c8c1b4b56fcdc8d69988/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 38        android:dataExtractionRules="@xml/data_extraction_rules"
-38-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:13:9-65
+38-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:13:9-65
 39        android:debuggable="true"
 40        android:fullBackupContent="@xml/backup_rules"
-40-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:14:9-54
+40-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:14:9-54
 41        android:icon="@mipmap/ic_launcher"
-41-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:15:9-43
+41-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:15:9-43
 42        android:label="RUNR"
-42-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:16:9-29
+42-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:16:9-29
 43        android:roundIcon="@mipmap/ic_launcher_round"
-43-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:17:9-54
+43-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:17:9-54
 44        android:supportsRtl="true"
-44-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:18:9-35
+44-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:18:9-35
 45        android:testOnly="true"
 46        android:theme="@style/Theme.Gps_coordinates" >
-46-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:19:9-53
+46-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:19:9-53
 47        <activity
-47-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:21:9-33:20
+47-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:21:9-33:20
 48            android:name="com.example.gps_coordinates.HomeActivity"
-48-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:22:13-41
+48-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:22:13-41
 49            android:exported="true"
-49-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:23:13-36
+49-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:23:13-36
 50            android:screenOrientation="portrait" >
-50-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:24:13-49
+50-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:24:13-49
 51            <intent-filter>
-51-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:25:13-29:29
+51-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:25:13-29:29
 52                <action android:name="android.intent.action.MAIN" />
-52-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:26:17-69
-52-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:26:25-66
+52-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:26:17-69
+52-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:26:25-66
 53
 54                <category android:name="android.intent.category.LAUNCHER" />
-54-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:28:17-77
-54-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:28:27-74
+54-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:28:17-77
+54-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:28:27-74
 55            </intent-filter>
 56
 57            <meta-data
-57-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:30:13-32:36
+57-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:30:13-32:36
 58                android:name="android.app.lib_name"
-58-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:31:17-52
+58-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:31:17-52
 59                android:value="" />
-59-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:32:17-33
+59-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:32:17-33
 60        </activity>
 61        <activity
-61-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:34:9-42:20
+61-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:34:9-42:20
 62            android:name="com.example.gps_coordinates.activities.RunActivity"
-62-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:35:13-51
+62-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:35:13-51
 63            android:exported="false"
-63-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:36:13-37
+63-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:36:13-37
 64            android:screenOrientation="portrait"
-64-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:37:13-49
+64-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:37:13-49
 65            android:theme="@style/Theme.Design.NoActionBar" >
-65-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:38:13-60
+65-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:38:13-60
 66            <meta-data
-66-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:30:13-32:36
+66-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:30:13-32:36
 67                android:name="android.app.lib_name"
-67-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:31:17-52
+67-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:31:17-52
 68                android:value="" />
-68-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:32:17-33
+68-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:32:17-33
 69        </activity>
 70        <activity
-70-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:43:9-49:20
+70-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:43:9-49:20
 71            android:name="com.example.gps_coordinates.activities.GraphActivity"
-71-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:44:13-53
+71-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:44:13-53
 72            android:exported="false" >
-72-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:45:13-37
+72-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:45:13-37
 73            <meta-data
-73-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:30:13-32:36
+73-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:30:13-32:36
 74                android:name="android.app.lib_name"
-74-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:31:17-52
+74-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:31:17-52
 75                android:value="" />
-75-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:32:17-33
+75-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:32:17-33
 76        </activity>
 77        <activity
-77-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:50:9-57:20
+77-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:50:9-57:20
 78            android:name="com.example.gps_coordinates.MainActivity"
-78-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:51:13-41
+78-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:51:13-41
 79            android:exported="true" >
-79-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:52:13-36
+79-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:52:13-36
 80            <meta-data
-80-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:30:13-32:36
+80-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:30:13-32:36
 81                android:name="android.app.lib_name"
-81-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:31:17-52
+81-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:31:17-52
 82                android:value="" />
-82-->C:\Users\Quevy\Documents\github\Android-App-Development\gps_coordinates\app\src\main\AndroidManifest.xml:32:17-33
+82-->/home/valigatotus/Documents/github/Android-App-Development/gps_coordinates/app/src/main/AndroidManifest.xml:32:17-33
 83        </activity>
 84
 85        <uses-library
-85-->[androidx.window:window:1.0.0] C:\Users\Quevy\.gradle\caches\transforms-3\c1ba9eed255e14222e6e048478f14b43\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+85-->[androidx.window:window:1.0.0] /home/valigatotus/.gradle/caches/transforms-3/c1ba9eed255e14222e6e048478f14b43/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
 86            android:name="androidx.window.extensions"
-86-->[androidx.window:window:1.0.0] C:\Users\Quevy\.gradle\caches\transforms-3\c1ba9eed255e14222e6e048478f14b43\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+86-->[androidx.window:window:1.0.0] /home/valigatotus/.gradle/caches/transforms-3/c1ba9eed255e14222e6e048478f14b43/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
 87            android:required="false" />
-87-->[androidx.window:window:1.0.0] C:\Users\Quevy\.gradle\caches\transforms-3\c1ba9eed255e14222e6e048478f14b43\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+87-->[androidx.window:window:1.0.0] /home/valigatotus/.gradle/caches/transforms-3/c1ba9eed255e14222e6e048478f14b43/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
 88        <uses-library
-88-->[androidx.window:window:1.0.0] C:\Users\Quevy\.gradle\caches\transforms-3\c1ba9eed255e14222e6e048478f14b43\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+88-->[androidx.window:window:1.0.0] /home/valigatotus/.gradle/caches/transforms-3/c1ba9eed255e14222e6e048478f14b43/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
 89            android:name="androidx.window.sidecar"
-89-->[androidx.window:window:1.0.0] C:\Users\Quevy\.gradle\caches\transforms-3\c1ba9eed255e14222e6e048478f14b43\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+89-->[androidx.window:window:1.0.0] /home/valigatotus/.gradle/caches/transforms-3/c1ba9eed255e14222e6e048478f14b43/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
 90            android:required="false" />
-90-->[androidx.window:window:1.0.0] C:\Users\Quevy\.gradle\caches\transforms-3\c1ba9eed255e14222e6e048478f14b43\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+90-->[androidx.window:window:1.0.0] /home/valigatotus/.gradle/caches/transforms-3/c1ba9eed255e14222e6e048478f14b43/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
 91
 92        <provider
-92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+92-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 93            android:name="androidx.startup.InitializationProvider"
-93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+93-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
 94            android:authorities="com.example.gps_coordinates.androidx-startup"
-94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+94-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
 95            android:exported="false" >
-95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+95-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
 96            <meta-data
-96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+96-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+97-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
 98                android:value="androidx.startup" />
-98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Quevy\.gradle\caches\transforms-3\a44fe69b7f5ac0e141d6bda2f04e92a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+98-->[androidx.emoji2:emoji2:1.2.0] /home/valigatotus/.gradle/caches/transforms-3/a44fe69b7f5ac0e141d6bda2f04e92a5/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
 99            <meta-data
-99-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+99-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/valigatotus/.gradle/caches/transforms-3/baa824db3c1bec348e984fa25af19fb7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-100-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+100-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/valigatotus/.gradle/caches/transforms-3/baa824db3c1bec348e984fa25af19fb7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 101                android:value="androidx.startup" />
-101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Quevy\.gradle\caches\transforms-3\baa824db3c1bec348e984fa25af19fb7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/valigatotus/.gradle/caches/transforms-3/baa824db3c1bec348e984fa25af19fb7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 102        </provider>
 103    </application>
 104

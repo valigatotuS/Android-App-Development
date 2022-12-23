@@ -4,41 +4,7 @@
             "outputFile": "com.example.gps_coordinates.app-mergeDebugResources-47:/values-hy/values-hy.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\19a531f90efcc9e9cd8b0bca09ee9f81\\transformed\\navigation-ui-2.5.3\\res\\values-hy\\values-hy.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,116",
-                        "endOffsets": "156,273"
-                    },
-                    "to": {
-                        "startLines": "91,92",
-                        "startColumns": "4,4",
-                        "startOffsets": "7673,7779",
-                        "endColumns": "105,116",
-                        "endOffsets": "7774,7891"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-hy\\values-hy.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "97",
-                        "startColumns": "4",
-                        "startOffsets": "8281",
-                        "endColumns": "100",
-                        "endOffsets": "8377"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-hy\\values-hy.xml",
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/35247393b79a5fe3c4f500e2adf3d76f/transformed/appcompat-1.5.1/res/values-hy/values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\befb3352551fdc2f23d11fb396198108\\transformed\\preference-1.1.0\\res\\values-hy\\values-hy.xml",
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/befb3352551fdc2f23d11fb396198108/transformed/preference-1.1.0/res/values-hy/values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -72,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-hy\\values-hy.xml",
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/53edefe15d403f8467620aa121e38059/transformed/material-1.7.0/res/values-hy/values-hy.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -88,6 +54,40 @@
                         "endLines": "5,33,34,35,36,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,94",
                         "endColumns": "12,79,94,129,80,63,96,84,61,86,63,60,66,60,53,121,56,59,53,80,134,83,84,135,74,74,94,55,52,65,73,79,85,70,75,75,76,87,79,95,95,73,77,99,50,68,86,90,61,63,62,104,100,99,104,59,56,84",
                         "endOffsets": "310,3099,3194,3324,3405,3541,3726,3811,3873,3960,4024,4085,4152,4213,4267,4389,4446,4506,4560,4641,4776,4860,4945,5081,5156,5231,5326,5382,5435,5501,5575,5655,5741,5812,5888,5964,6041,6129,6209,6305,6401,6475,6553,6653,6704,6773,6860,6951,7013,7077,7140,7245,7346,7446,7551,7611,7668,8056"
+                    }
+                },
+                {
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/19a531f90efcc9e9cd8b0bca09ee9f81/transformed/navigation-ui-2.5.3/res/values-hy/values-hy.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,116",
+                        "endOffsets": "156,273"
+                    },
+                    "to": {
+                        "startLines": "91,92",
+                        "startColumns": "4,4",
+                        "startOffsets": "7673,7779",
+                        "endColumns": "105,116",
+                        "endOffsets": "7774,7891"
+                    }
+                },
+                {
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/205feb206244c8c1b4b56fcdc8d69988/transformed/core-1.8.0/res/values-hy/values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "97",
+                        "startColumns": "4",
+                        "startOffsets": "8281",
+                        "endColumns": "100",
+                        "endOffsets": "8377"
                     }
                 }
             ]

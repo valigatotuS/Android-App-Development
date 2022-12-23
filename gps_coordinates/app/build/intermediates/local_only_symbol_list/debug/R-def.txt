@@ -11,6 +11,7 @@ color teal_700
 color white
 drawable background_line_2
 drawable graphic_progression_svgrepo_com
+drawable ic_baseline_adjust_24
 drawable ic_baseline_format_list_bulleted_24
 drawable ic_baseline_home_24
 drawable ic_baseline_map_24

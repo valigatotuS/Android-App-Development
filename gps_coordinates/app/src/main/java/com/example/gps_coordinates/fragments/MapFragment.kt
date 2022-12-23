@@ -1,32 +1,29 @@
 package com.example.gps_coordinates.fragments
 
+
 import android.graphics.Color
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.app.Activity
 import android.widget.Toast
-import androidx.preference.PreferenceManager
-import com.example.gps_coordinates.R
-import com.example.gps_coordinates.sportActivityStarted
-import com.example.gps_coordinates.userLocation
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import androidx.appcompat.widget.ThemedSpinnerAdapter.Helper
+import androidx.fragment.app.Fragment
+import com.example.gps_coordinates.*
+import com.example.gps_coordinates.database.DatabaseHandler
 import org.osmdroid.api.IMapController
-import org.osmdroid.config.Configuration
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.MapView
+import org.osmdroid.views.overlay.Marker
 import org.osmdroid.views.overlay.Polyline
 import java.lang.Math.*
-import java.time.Duration
 import java.util.*
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
+import kotlin.collections.ArrayList
 import kotlin.math.pow
 
 
@@ -44,7 +41,8 @@ class MapFragment : Fragment() {
     private lateinit var userRunPath: Polyline
     var userCurrentPace: Double = 0.0
     var userCurrentDistance = 0.000
-    var userCurrentDuration: Long = -5
+    var userCurrentDuration: Long = -1
+    var userCurrentActivityID : Int = 2
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,6 +63,7 @@ class MapFragment : Fragment() {
         durationlblTextV = view.findViewById(R.id.tv_duration_lbl)
         pacelblTextV = view.findViewById(R.id.tv_pace_lbl)
         distancelblTextV = view.findViewById(R.id.tv_distance_lbl)
+        drawLastRun() // draw latest run on map
 
         // Map initialization
         geolocationMap.setTileSource(TileSourceFactory.MAPNIK)
@@ -89,11 +88,13 @@ class MapFragment : Fragment() {
             distanceTextV.setVisibility(View.VISIBLE)
             paceTextV.setVisibility(View.VISIBLE)
 
+            //
+            userCurrentActivityID = (activity as HomeActivity).getLatestActivity()
+
              //background thread
             val executorService = Executors.newSingleThreadScheduledExecutor()
             executorService.scheduleAtFixedRate({
-                updateCurrentRunningPath()
-                livePathView()
+
                 Log.e("logMAP", "thread running")
             }, 0, 1, TimeUnit.SECONDS)
 
@@ -101,12 +102,20 @@ class MapFragment : Fragment() {
             timer.scheduleAtFixedRate(object : TimerTask() {
                 override fun run() {
                     getActivity()?.runOnUiThread {
-                        userCurrentDuration += 5
+                        userCurrentDuration += 1
+                        updateCurrentRunningPath()
+                        if (userCurrentDuration % 30 == 0L){
+                            Log.e("idL", userCurrentActivityID.toString())
+                            postCoordinates(userRunPath.points.takeLast(30), userCurrentActivityID)
+                            calcLiveStats(userRunPath.points.takeLast(31))
+                        }
+                        if (userCurrentDuration % 5 === 1L){
+                            livePathView()
+                        }
                         updateLabels()
-                        calcLiveStats(userRunPath.points.takeLast(5))
                     }
                 }
-            }, 0, 5000) // Update every second (1000 milliseconds)
+            }, 200, 1000) // Update every second (1000 milliseconds)
         }
         else{
             pacelblTextV.setVisibility(View.GONE)
@@ -129,6 +138,7 @@ class MapFragment : Fragment() {
         geolocationMapController.setCenter(GeoPoint(userLocation.first, userLocation.second))
         geolocationMap.getOverlays().add(userRunPath)
         geolocationMap.invalidate()
+        addUserPositionMarker()
     }
 
     private fun updateLabels(){
@@ -147,18 +157,17 @@ class MapFragment : Fragment() {
     fun calcLiveStats(points: List<GeoPoint>){
         var distance = 0.0
         var totalDistance = 0.0
-        var speeds = mutableListOf<Double>()
-        var speed = 0.0
 
-        if (points.size==5){
+        if (points.size>29){
             for (i: kotlin.Int in 0..points.size-2){
-                distance = calculateDistance(points[i], points[i+1])
-                speeds.add(distance) // m/s
-                Log.e("logDist", i.toString())
+                totalDistance += calculateDistance(points[i], points[i+1])
+                //Log.e("logDist", i.toString())
+                //distancelblTextV.text = distance.toString()
             }
-            userCurrentPace = speeds.average()
-            //Log.e("logSPEED", userCurrentPace.toString())
-            userCurrentDistance += userCurrentPace * 5
+
+            Log.e("logSPEED", userCurrentPace.toString())
+            userCurrentDistance += totalDistance
+            userCurrentPace = totalDistance / 30
         }
         // debug
 //        distancelblTextV.text = String.format("%.3f", distance) + " km"
@@ -181,10 +190,48 @@ class MapFragment : Fragment() {
     }
 
     fun convertSpeedToPace(speed: Double): String {
-        if (speed < 0.01){ return "0'0''"}
         val pace = 1000.0 / speed // convert m/s to s/m
         val minutes = pace / 60.0 // convert s/m to min/km
         val seconds = (pace % 60) // get remainder in seconds
+        if (minutes > 60){ return "0'0''"}
         return "${minutes.toInt()}'${seconds.toInt()}''"
+    }
+
+    private fun postCoordinates(coordinates: List<GeoPoint>, activity_id:Int){
+        val ctx = context
+        val dbHandler = ctx?.let { DatabaseHandler(it) }
+        val addCoordinateResult = dbHandler?.addCoordinates(coordinates, activity_id)
+
+        if (addCoordinateResult != null) {
+            if (addCoordinateResult.size == coordinates.size){
+                Toast.makeText(ctx, "coordinates posted succesfuly", Toast.LENGTH_SHORT).show()
+            }
+            else{
+                Toast.makeText(ctx, "coordinates posted unsuccesfuly", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    private fun drawLastRun(){
+        val coordinates = (activity as HomeActivity).getActivityCoordinates((activity as HomeActivity).getLatestActivity()-1)
+
+        if (coordinates.size < 10){return}
+        var polyline = Polyline(geolocationMap)
+        polyline.color = Color.RED
+        polyline.width = 5.0f
+        polyline.setPoints(coordinates)
+        geolocationMap.overlays.clear()
+        geolocationMap.overlays.add(polyline)
+        geolocationMap.invalidate()
+    }
+
+    private fun addUserPositionMarker() {
+        val center = GeoPoint(userLocation.first, userLocation.second) // + Random.nextDouble(until = 0.001))
+        val marker = Marker(geolocationMap)
+        marker.position = center
+        marker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
+        marker.icon = resources.getDrawable(R.drawable.ic_baseline_adjust_24)
+        geolocationMap.getOverlays().add(marker)
+        geolocationMap.invalidate()
     }
 }

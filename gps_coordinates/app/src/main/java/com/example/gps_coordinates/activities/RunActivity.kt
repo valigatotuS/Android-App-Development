@@ -143,13 +143,13 @@ class RunActivity : AppCompatActivity() {
 
     private fun getActivityCoordinates(){
         val dbHandler = DatabaseHandler(this)
-        val getActivityCoordinatesList : ArrayList<CoordinatesModel> = dbHandler.getActivityCoordinates(1)
+        //val getActivityCoordinatesList : ArrayList<CoordinatesModel> = dbHandler.getActivityCoordinates(1)
 
-        if (getActivityCoordinatesList.size > 0){
-            for(i in getActivityCoordinatesList){
-                Log.e("array", i.toString())
-            }
-        }
+        //if (getActivityCoordinatesList.size > 0){
+         //   for(i in getActivityCoordinatesList){
+        //        Log.e("array", i.toString())
+          //  }
+        //}
     }
 
     private fun addMarker(title: String) { //center: GeoPoint?,
@@ -197,9 +197,9 @@ class RunActivity : AppCompatActivity() {
 
     private fun drawActivityPath(activitity_id:Int){
         val dbHandler = DatabaseHandler(this)
-        val activityCoordinatesList : ArrayList<CoordinatesModel> = dbHandler.getActivityCoordinates(activitity_id)
+        //val activityCoordinatesList : ArrayList<CoordinatesModel> = dbHandler.getActivityCoordinates(activitity_id)
 
-        if (activityCoordinatesList.size > 0){
+        /*if (activityCoordinatesList.size > 0){
             for(i in activityCoordinatesList){
                 userRunPath.addPoint(GeoPoint(i.longitude, i.latitude))
                 Log.e("log", "lat/long: " + i.latitude.toString() + "/" + i.longitude.toString())
@@ -207,7 +207,7 @@ class RunActivity : AppCompatActivity() {
         }
         geolocationMap.getOverlays().clear()
         geolocationMap.getOverlays().add(userRunPath)
-        geolocationMap.invalidate()
+        geolocationMap.invalidate()*/
     }
 
     private fun startNewRunningActivity(){

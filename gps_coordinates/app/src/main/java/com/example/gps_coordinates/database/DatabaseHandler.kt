@@ -7,8 +7,10 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteException
 import android.database.sqlite.SQLiteOpenHelper
+import android.util.Log
 import com.example.gps_coordinates.models.CoordinatesModel
 import com.example.gps_coordinates.models.ActivityModel
+import org.osmdroid.util.GeoPoint
 
 class DatabaseHandler(context: Context) :
     SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
@@ -82,6 +84,30 @@ class DatabaseHandler(context: Context) :
         return result
     }
 
+    fun addCoordinates(coordinates: List<GeoPoint>, activityId: Int): List<Long> {
+        val db = this.writableDatabase
+        val results = mutableListOf<Long>()
+
+        db.beginTransaction()
+        try {
+            for (coord in coordinates) {
+                val contentValues = ContentValues()
+                contentValues.put(KEY_ACTIVITY_ID, activityId)
+                contentValues.put(KEY_LATITUDE, coord.latitude)
+                contentValues.put(KEY_LONGITUDE, coord.longitude)
+
+                val result = db.insertWithOnConflict(TABLE_COORDINATES, null, contentValues, SQLiteDatabase.CONFLICT_IGNORE)
+                results.add(result)
+            }
+            db.setTransactionSuccessful()
+        } finally {
+            db.endTransaction()
+        }
+
+        db.close()
+        return results
+    }
+
     @SuppressLint("Range")
     fun getSportActivity():ArrayList<ActivityModel>{
         val sportActivitiesList = ArrayList<ActivityModel>()
@@ -112,8 +138,8 @@ class DatabaseHandler(context: Context) :
     }
 
     @SuppressLint("Range")
-    fun getActivityCoordinates(activity_id: Int):ArrayList<CoordinatesModel>{
-        val activityCoordinatesList = ArrayList<CoordinatesModel>()
+    fun getActivityCoordinates(activity_id: Int):ArrayList<GeoPoint>{
+        val activityCoordinatesList = ArrayList<GeoPoint>()
         val selectQuery = "SELECT * FROM $TABLE_COORDINATES WHERE $KEY_ACTIVITY_ID = $activity_id"
         val db = this.readableDatabase
 
@@ -121,13 +147,11 @@ class DatabaseHandler(context: Context) :
             val cursor : Cursor = db.rawQuery(selectQuery, null)
             if(cursor.moveToFirst()){
                 do{
-                    val activityCoordinate = CoordinatesModel(
-                        cursor.getInt(cursor.getColumnIndex(KEY_ID)),
-                        cursor.getInt(cursor.getColumnIndex(KEY_ACTIVITY_ID)),
-                        cursor.getDouble(cursor.getColumnIndex(KEY_LONGITUDE)),
-                        cursor.getDouble(cursor.getColumnIndex(KEY_LATITUDE))
-                    )
-                    activityCoordinatesList.add(activityCoordinate)
+                    val longitude = cursor.getDouble(cursor.getColumnIndex(KEY_LONGITUDE))
+                    val latitude = cursor.getDouble(cursor.getColumnIndex(KEY_LATITUDE))
+                    val geoPoint = GeoPoint(latitude, longitude)
+                    activityCoordinatesList.add(geoPoint)
+                    Log.e("logGetCoord", geoPoint.toString())
                 }while(cursor.moveToNext())
             }
             cursor.close()
@@ -136,5 +160,44 @@ class DatabaseHandler(context: Context) :
             return ArrayList()
         }
         return activityCoordinatesList
+    }
+
+    @SuppressLint("Range")
+    fun getLastActivityId(): Int{
+        val db = this.readableDatabase
+        val query = "SELECT * FROM $TABLE_ACTIVITIES ORDER BY $KEY_ID DESC LIMIT 1"
+        val cursor = db.rawQuery(query, null)
+        var lastId = -1L
+        if (cursor.moveToFirst()) {
+            lastId = cursor.getLong(cursor.getColumnIndex(KEY_ID))
+        }
+        cursor.close()
+        db.close()
+        return lastId.toInt()
+    }
+
+    @SuppressLint("Range")
+    fun getLatestActivity(): Int {
+        val db = this.readableDatabase
+        try {
+            val cursor = db.rawQuery(
+                "SELECT $KEY_ID FROM $TABLE_ACTIVITIES WHERE $KEY_ID = (SELECT MAX($KEY_ID) FROM $TABLE_ACTIVITIES)",
+                null
+            )
+            if (cursor.moveToFirst()) {
+                // cursor is now pointing at the row with the highest ID
+                val id = cursor.getInt(cursor.getColumnIndex(KEY_ID))
+                return id
+                // do something with the data
+            }
+            cursor.close()
+            db.close()
+        }
+        catch (e: SQLiteException){
+            return 0
+        }
+
+
+        return 100
     }
 }

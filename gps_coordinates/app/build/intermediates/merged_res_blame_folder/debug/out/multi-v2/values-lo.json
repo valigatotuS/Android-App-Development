@@ -4,41 +4,7 @@
             "outputFile": "com.example.gps_coordinates.app-mergeDebugResources-47:/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\19a531f90efcc9e9cd8b0bca09ee9f81\\transformed\\navigation-ui-2.5.3\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,164",
-                        "endColumns": "108,109",
-                        "endOffsets": "159,269"
-                    },
-                    "to": {
-                        "startLines": "91,92",
-                        "startColumns": "4,4",
-                        "startOffsets": "7496,7605",
-                        "endColumns": "108,109",
-                        "endOffsets": "7600,7710"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\205feb206244c8c1b4b56fcdc8d69988\\transformed\\core-1.8.0\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "97",
-                        "startColumns": "4",
-                        "startOffsets": "8093",
-                        "endColumns": "100",
-                        "endOffsets": "8189"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\35247393b79a5fe3c4f500e2adf3d76f\\transformed\\appcompat-1.5.1\\res\\values-lo\\values-lo.xml",
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/35247393b79a5fe3c4f500e2adf3d76f/transformed/appcompat-1.5.1/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +21,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\53edefe15d403f8467620aa121e38059\\transformed\\material-1.7.0\\res\\values-lo\\values-lo.xml",
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/205feb206244c8c1b4b56fcdc8d69988/transformed/core-1.8.0/res/values-lo/values-lo.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "97",
+                        "startColumns": "4",
+                        "startOffsets": "8093",
+                        "endColumns": "100",
+                        "endOffsets": "8189"
+                    }
+                },
+                {
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/befb3352551fdc2f23d11fb396198108/transformed/preference-1.1.0/res/values-lo/values-lo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,261,340,478,647,727",
+                        "endColumns": "69,85,78,137,168,79,77",
+                        "endOffsets": "170,256,335,473,642,722,800"
+                    },
+                    "to": {
+                        "startLines": "37,39,93,95,98,99,100",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "3384,3520,7715,7873,8194,8363,8443",
+                        "endColumns": "69,85,78,137,168,79,77",
+                        "endOffsets": "3449,3601,7789,8006,8358,8438,8516"
+                    }
+                },
+                {
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/19a531f90efcc9e9cd8b0bca09ee9f81/transformed/navigation-ui-2.5.3/res/values-lo/values-lo.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,164",
+                        "endColumns": "108,109",
+                        "endOffsets": "159,269"
+                    },
+                    "to": {
+                        "startLines": "91,92",
+                        "startColumns": "4,4",
+                        "startOffsets": "7496,7605",
+                        "endColumns": "108,109",
+                        "endOffsets": "7600,7710"
+                    }
+                },
+                {
+                    "source": "/home/valigatotus/.gradle/caches/transforms-3/53edefe15d403f8467620aa121e38059/transformed/material-1.7.0/res/values-lo/values-lo.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,23 +88,6 @@
                         "endLines": "5,33,34,35,36,38,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,94",
                         "endColumns": "12,80,114,118,82,65,88,68,58,94,64,57,64,60,59,105,60,59,57,70,118,85,81,142,74,75,89,54,54,65,68,73,78,72,76,68,69,84,74,92,92,73,68,93,51,66,83,83,61,63,62,98,91,94,91,58,58,78",
                         "endOffsets": "314,3062,3177,3296,3379,3515,3690,3759,3818,3913,3978,4036,4101,4162,4222,4328,4389,4449,4507,4578,4697,4783,4865,5008,5083,5159,5249,5304,5359,5425,5494,5568,5647,5720,5797,5866,5936,6021,6096,6189,6282,6356,6425,6519,6571,6638,6722,6806,6868,6932,6995,7094,7186,7281,7373,7432,7491,7868"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Quevy\\.gradle\\caches\\transforms-3\\befb3352551fdc2f23d11fb396198108\\transformed\\preference-1.1.0\\res\\values-lo\\values-lo.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,175,261,340,478,647,727",
-                        "endColumns": "69,85,78,137,168,79,77",
-                        "endOffsets": "170,256,335,473,642,722,800"
-                    },
-                    "to": {
-                        "startLines": "37,39,93,95,98,99,100",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "3384,3520,7715,7873,8194,8363,8443",
-                        "endColumns": "69,85,78,137,168,79,77",
-                        "endOffsets": "3449,3601,7789,8006,8358,8438,8516"
                     }
                 }
             ]
